@@ -298,7 +298,7 @@ li {
 }
 
 
-@media (max-width: 950px) {
+@media (max-width: 704px) {
     .aboutme {
         font-size: 13px;
     }
