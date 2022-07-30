@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Merriweather Sans;
+}
+
+.maincontent {
+    display: grid;
+    grid-template-areas:
+        "leftcontent rightcontent";
+
+    grid-template-columns: 400px;
+}
+
+.leftcontent {
+    background-color: rgb(26, 25, 25);
+    grid-area: leftcontent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.id {
+    background-color: rgb(48, 48, 48);
+    height: 250px;
+    width: 300px;
+    margin: 15px;
+    margin-top: 20px;
+    border: solid 1px rgb(140, 0, 255);
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.idname {
+    margin-top: 22px;
+}
+
+.idprofile {
+    height: 60%;
+    width: 50%;
+    padding: 5px;
+    border: solid rgb(140, 0, 255) 2px;
+    border-radius: 100px;
+}
+
+.iconsbox {
+    background-color: rgb(48, 48, 48);
+    height: 330px;
+    width: 300px;
+    margin: 15px;
+    border: solid 1px rgb(140, 0, 255);
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 35px;
+
+}
+
+.tech {
+    background-color: rgb(48, 48, 48);
+    height: 200px;
+    width: 300px;
+    margin: 15px;
+    border: solid 1px rgb(140, 0, 255);
+    border-radius: 15px;
+    gap: 15px;
+    display: grid;
+    grid-template-areas:
+        "tech1  tech2";
+}
+
+.tech1 {
+    grid-area: tech1;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.tech2 {
+    grid-area: tech2;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.tc {
+    background-color: rgb(48, 48, 48);
+    ;
+    border: solid 1px rgb(140, 0, 255);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    width: 95px;
+    height: 25px;
+}
+
+.tc:hover {
+    background-color: rgb(48, 48, 48);
+    cursor: pointer;
+    color: rgb(140, 0, 255);
+}
+
+.education {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    font-size: 15px;
+    height: 200px;
+    width: 300px;
+    margin: 15px;
+    border: solid 1px rgb(140, 0, 255);
+    border-radius: 15px;
+    gap: 15px;
+}
+
+.titleeducation {
+    margin-left: 12px;
+    margin-top: 20px;
+}
+
+.lista1 {
+    margin-left: 40px;
+    margin-top: 12px;
+}
+
+li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.experiences {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    font-size: 15px;
+    height: 200px;
+    width: 300px;
+    margin: 15px;
+    border: solid 1px rgb(140, 0, 255);
+    border-radius: 15px;
+    gap: 15px;
+}
+
+.rightcontent {
+    grid-area: rightcontent;
+    background-color: rgb(26, 25, 25);
+}
+
+.aboutme {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    width: 90%;
+    max-width: 1000px;
+    height: 120px;
+    margin-top: 30px;
+    border: solid 1px rgb(140, 0, 255);
+    border-radius: 15px;
+}
+
+.sobremim {
+    margin-top: 18px;
+    margin-left: 18px;
+}
+
+.myprojects {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    max-width: 1000px;
+    width: 90%;
+    height: 500px;
+    margin-top: 30px;
+    border: solid 1px rgb(140, 0, 255);
+    border-radius: 15px;
+}
+
+.projects {
+    display: grid;
+    grid-template-areas: 
+    "project1 project2"
+    "project3 project4";
+}
+
+.project1 {
+    grid-area: project1;
+    background-color: rgb(26, 25, 25);
+    width: 75%;
+    max-width: 350px;
+    height:180px;
+    border: 1px solid rgb(140, 0, 255);
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.project2 {
+    grid-area: project2;
+    background-color: rgb(26, 25, 25);
+    width: 75%;
+    max-width: 350px;
+    height:180px;
+    border: 1px solid rgb(140, 0, 255);
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.project3 {
+    grid-area: project3;
+    background-color: rgb(26, 25, 25);
+    width: 75%;
+    max-width: 350px;
+    height:180px;
+    border: 1px solid rgb(140, 0, 255);
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.project4 {
+    grid-area: project4;
+    background-color: rgb(26, 25, 25);
+    width: 75%;
+    max-width: 350px;
+    height:180px;
+    border: 1px solid rgb(140, 0, 255);
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.slot1 {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    max-width: 1000px;
+    width: 90%;
+    height: 500px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: solid 1px rgb(140, 0, 255);
+    border-radius: 15px;
+}
+
+.footer {
+    width: auto;
+    height: 60px;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+
+}
+
+@media (max-width:425px){
+    .maincontent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftcontent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rightcontent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 950px) {
+    .aboutme {
+        font-size: 13px;
+    }
+    .myprojects {
+        font-size: 13px;
+        height: 900px;
+    }
+    .project1 {
+        margin: 0px;
+        max-width: 300px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    .project2 {
+        margin: 0px;
+        max-width: 300px;
+        margin-bottom: 30px;
+    }
+    .project3 {
+        margin: 0px;
+        max-width: 300px;
+        margin-bottom: 30px;
+    }
+    .project4 {
+        margin: 0px;
+        max-width: 300px;
+        margin-bottom: 30px;
+    }
+    .projects {
+        display: flex;
+        justify-content: center;
+        flex-direction:column;
+        align-items: center;
+        
+    }
+
+
+}
+
